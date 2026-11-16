@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#3F51B5</color>
+    <color name="primary_dark">#283593</color>
+    <color name="primary_container">#E3E7FF</color>
+    <color name="on_primary_container">#14206B</color>
+    <color name="background">#F7F8FC</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text_primary">#1B1C24</color>
+    <color name="text_secondary">#5F6273</color>
+    <color name="divider">#E4E6EF</color>
+
+    <color name="overdue">#C62828</color>
+    <color name="overdue_bg">#FDECEC</color>
+    <color name="success">#2E7D32</color>
+
+    <color name="type_task">#3F51B5</color>
+    <color name="type_task_bg">#E8EAF6</color>
+    <color name="type_reminder">#EF6C00</color>
+    <color name="type_reminder_bg">#FFF3E0</color>
+    <color name="type_appointment">#00838F</color>
+    <color name="type_appointment_bg">#E0F7FA</color>
+    <color name="type_shopping">#2E7D32</color>
+    <color name="type_shopping_bg">#E8F5E9</color>
+    <color name="type_payment">#AD1457</color>
+    <color name="type_payment_bg">#FCE4EC</color>
+
+    <color name="priority_low">#607D8B</color>
+    <color name="priority_medium">#F9A825</color>
+    <color name="priority_high">#D32F2F</color>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="4dp"
+            android:paddingTop="4dp"
+            android:text="@string/nav_settings"
+            android:textColor="@color/text_primary"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView style="@style/LP.SectionTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:paddingStart="4dp" android:text="Reminders" />
+        <com.google.android.material.card.MaterialCardView style="@style/LP.Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <include android:id="@+id/s_notif" layout="@layout/view_picker_row" />
+                <View android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginStart="56dp" android:background="@color/divider" />
+                <include android:id="@+id/s_test" layout="@layout/view_picker_row" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView style="@style/LP.SectionTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:paddingStart="4dp" android:text="Appearance" />
+        <com.google.android.material.card.MaterialCardView style="@style/LP.Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+            <include android:id="@+id/s_theme" layout="@layout/view_picker_row" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView style="@style/LP.SectionTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:paddingStart="4dp" android:text="Demo data" />
+        <com.google.android.material.card.MaterialCardView style="@style/LP.Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <include android:id="@+id/s_samples" layout="@layout/view_picker_row" />
+                <View android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginStart="56dp" android:background="@color/divider" />
+                <include android:id="@+id/s_clear" layout="@layout/view_picker_row" />
+                <View android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginStart="56dp" android:background="@color/divider" />
+                <include android:id="@+id/s_onboarding" layout="@layout/view_picker_row" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView style="@style/LP.SectionTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:paddingStart="4dp" android:text="About" />
+        <com.google.android.material.card.MaterialCardView style="@style/LP.Card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="24dp">
+            <include android:id="@+id/s_about" layout="@layout/view_picker_row" />
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</ScrollView>
